@@ -1,0 +1,175 @@
+@font-face {
+  font-family: "Raleway";
+  src: url(../../public/fonts/Raleway-Regular.ttf);
+}
+* {
+  font-family: "Raleway";
+  margin: 0;
+}
+
+h1 {
+  color: #fff;
+  font-family: "Raleway";
+  padding-top: 30%;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  justify-content: space-evenly;
+  background-color: #23395d;
+  color: #fff;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  gap: 7%;
+  padding-right: 20%;
+}
+
+li {
+  padding-top: 12%;
+  padding-bottom: 6%;
+  font-size: 0.8em;
+}
+li:hover {
+  background-color: #1354ce;
+  height: 10px;
+}
+
+#img_head {
+  width: 100%;
+}
+
+#text_1 {
+  text-align: center;
+  padding: 7%;
+}
+
+.text_blue {
+  background-color: #1b63b5;
+  color: white;
+}
+
+#text_blue2 {
+  color: #1b63b5;
+  font-weight: 800;
+}
+
+#div1 {
+  background-color: #E7E6E0;
+  height: 200px;
+}
+
+#div2 {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 5% 10%;
+}
+#div2 i {
+  color: blue;
+  padding: 10%;
+  background-color: white;
+  border-radius: 50%;
+  color: blue;
+  margin: 1% 0 10%;
+  font-size: 30px;
+}
+#div2 p {
+  padding: 5%;
+}
+
+.div_card {
+  width: 280px;
+  text-align: center;
+  background-color: #cacaca;
+}
+
+.blu_card {
+  color: blue;
+  text-align: center;
+}
+
+#s3 {
+  display: flex;
+  justify-content: space-around;
+  margin: 0 5%;
+  margin-left: 11%;
+  margin-right: 11%;
+}
+
+#pics {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  width: 80%;
+  margin-left: 15%;
+}
+
+#pics h2 {
+  color: white;
+}
+
+#pics p {
+  color: gray;
+}
+
+.purple {
+  background-color: #23395d;
+  margin: 0 1%;
+}
+
+.purple img {
+  width: 100%;
+}
+
+#work {
+  color: gray;
+}
+
+#work p:nth-of-type(2) {
+  color: black;
+}
+
+#work button {
+  padding: 5% 8%;
+  background-color: #23395d;
+  color: white;
+  border: none;
+  font-weight: 900;
+  border-radius: 10px;
+  margin-top: 10%;
+}
+
+footer {
+  text-align: center;
+  background-color: #0f71d4;
+  color: white;
+  padding: 5% 20%;
+  margin-top: 5%;
+}
+
+footer p {
+  margin: 5%;
+  opacity: 0.5;
+}
+
+footer div {
+  font-size: 40px;
+  display: flex;
+  justify-content: space-evenly;
+  margin: 0 20%;
+}
+
+#foot_black {
+  background-color: #000000;
+  width: 100%;
+  bottom: 0;
+  color: white;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+/*# sourceMappingURL=style.css.map */
